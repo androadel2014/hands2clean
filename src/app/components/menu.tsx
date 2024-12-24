@@ -69,34 +69,36 @@ export default function Menu() {
         ></Button>
         <div className="mt-10  max-w-screen-xl p-5 m-auto">
           <h3 className="text-white text-xl">Explore our Services</h3>
-          <ul className="sm:flex sm:justify-between  mt-10 menu-items">
+          <ul className="sm:flex lg:justify-between  mt-10 menu-items">
             {menuService.map((item) => (
-              <li key={item.id} className="lg:mr-5 ">
+              <li key={item.id} className="lg:mr-5 m-5 ">
                 {/* <div> */}
                 <Image src={item.image} alt={item.title}></Image>
                 {/* </div> */}
-                <div className="lg:mt-5 text-white text-xl">{item.title}</div>
+                <div className="lg:mt-5 text-white lg:text-xl">
+                  {item.title}
+                </div>
               </li>
             ))}
           </ul>
           <div className="w-full h-0.5 bg-slate-50 opacity-40 my-16"></div>
           <ul className="grid lg:grid-cols-4 gap-4 py-5 text-white text-2xl text-center-mobile">
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/aboutus">About Us</Link>
             </li>
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/contactus">Contact Us</Link>
             </li>
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/blog">Blog</Link>
             </li>
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/testimonials">Testimonials</Link>
             </li>
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/giftcards">Giftcards</Link>
             </li>
-            <li className="mb-8 hover:text-green-300">
+            <li className="lg:mb-8 hover:text-green-300">
               <Link href="/clientlogin">Client Login</Link>
             </li>
           </ul>

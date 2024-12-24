@@ -28,7 +28,7 @@ export default function ContactUsForm() {
 
   return (
     <>
-      <div className="py-20 px-20 ">
+      <div className="p-10 lg:py-20 lg:px-20 ">
         <p className="text-3xl text-green-400 mb-5">Contact Us</p>
         <div className="lg:flex lg:justify-between">
           <div className="lg:w-1/2">
