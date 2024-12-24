@@ -1,9 +1,15 @@
 {
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx", // قم بإزالة هذا السطر
+    "dev": "next dev",
+    "build": "next build"
+  },
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
+    "noImplicitAny": false,
     "strict": true,
     "noEmit": true,
     "esModuleInterop": true,

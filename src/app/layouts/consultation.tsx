@@ -1,6 +1,4 @@
 import Button from "../components/button/button";
-import Swiper from "swiper";
-import { Navigation, Pagination, A11y } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -21,6 +19,7 @@ export default function Consultation() {
         <Button
           text={"Book My First Cleaning"}
           clsname={"bg-green-400 px-16 py-3 mt-10 hover:bg-green-600 "}
+          handleDisplay={""}
         ></Button>
       </div>
     </div>

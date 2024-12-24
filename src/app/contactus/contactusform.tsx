@@ -8,24 +8,21 @@ import { faPaperclip } from "@fortawesome/free-solid-svg-icons";
 import HoursPage from "./hourspage";
 
 export default function ContactUsForm() {
-  const [files, setFiles] = useState([]);
+  const [files, setFiles] = useState<File[]>([]); // حدد النوع File[]
 
   // دالة تغيير الملفات
-  function handleChange(e) {
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
     // نحول FileList إلى مصفوفة
-    const selectedFiles = Array.from(e.target.files);
+    const selectedFiles = Array.from(e.target.files || []); // تأكد أن e.target.files ليس null
     // ندمجها مع الملفات السابقة
     setFiles((prevFiles) => [...prevFiles, ...selectedFiles]);
 
     // إذا أردت السماح للمستخدم برفع نفس الملف مجددًا لاحقاً
-    e.target.value = null;
-
-    // (اختياري) تستطيع طباعة العدد
-    console.log("عدد الملفات:", selectedFiles.length);
+    e.target.value = "";
   }
 
   // دالة حذف ملف من المصفوفة
-  function handleRemove(index) {
+  function handleRemove(index: number) {
     setFiles((prevFiles) => prevFiles.filter((_, i) => i !== index));
   }
 

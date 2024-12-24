@@ -3,13 +3,12 @@ import "glider-js/glider.min.css";
 import * as React from "react";
 import Glider from "react-glider";
 import "glider-js/glider.min.css";
-import Image from "next/image";
 import img1 from "../../../public/images/img-1.jpg";
 import img2 from "../../../public/images/img-2.jpg";
 import img3 from "../../../public/images/img-3.jpg";
 import CleaningItem from "../components/cleaningitem";
 export default function CleaningList() {
-  var cleaningServices = [
+  const cleaningServices = [
     {
       id: 1,
       title: "Kitchen",

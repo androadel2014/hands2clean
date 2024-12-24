@@ -195,6 +195,7 @@ export default function AboutTeamMember() {
           {teamAboutMember.map((item) => {
             return (
               <ProfileAbout
+                key={item.id}
                 img={item.img}
                 alt={item.alt}
                 name={item.name}

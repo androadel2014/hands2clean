@@ -138,6 +138,7 @@ export default function OtherPart({ selectedOption }) {
                 span={option.price}
                 span2={option.labeltext}
                 span3={option.span}
+                onchangefun={""}
               ></ItemBookInput>
             </div>
           ))}

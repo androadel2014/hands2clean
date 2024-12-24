@@ -1,5 +1,5 @@
 // "use client";
-import React, { useState } from "react";
+import React from "react";
 import ItemBookInput from "./itembookinput";
 import SelectBox from "./selectbox";
 import HeadReq from "./headreq";
@@ -73,7 +73,7 @@ export default function FirstSectionBook({
             clasName="mt-20"
           ></HeadReq>
 
-          <SelectBox options={selectbox1} key={selectbox1} />
+          <SelectBox options={selectbox1} />
           <div className="mt-10 mb-10">
             <HeadReq req={true} text="Number of Bathrooms"></HeadReq>
             <SelectBox options={selectbox2}></SelectBox>

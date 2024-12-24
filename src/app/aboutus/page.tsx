@@ -5,8 +5,6 @@ import Percentage from "../layouts/percentage";
 import AboutForth from "./aboutforth";
 import AboutSecond from "./aboutsecond";
 import AboutThird from "./aboutthird";
-import aboutforthimg from "../../../public/images/forthabout.jpg";
-import forthtwice from "../../../public/images/forthtwice.jpg";
 import AboutTeamMember from "./aboutteammember";
 
 export default function page() {
@@ -20,7 +18,7 @@ export default function page() {
       <AboutSecond></AboutSecond>
       <AboutThird></AboutThird>
       <AboutForth
-        img={aboutforthimg}
+        img={"/images/forthabout.jpg"}
         title={"As the Brother’s Families Have Grown"}
         text={`So has the tapestry of the Maid Bright team-the entrepreneurs found
             strategic placements for everyone that wanted to be involved. With a
@@ -33,7 +31,7 @@ export default function page() {
       ></AboutForth>
       <Percentage></Percentage>
       <AboutForth
-        img={forthtwice}
+        img={"/images/forthtwice.jpg"}
         title={
           "Attributing the Success of the Brand to Their Dedicated Employees"
         }

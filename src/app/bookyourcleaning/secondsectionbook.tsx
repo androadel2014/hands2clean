@@ -53,6 +53,7 @@ export default function SecondSectionBook() {
                 labeltext={item.labeltext}
                 span={item.span}
                 imgurl={item.imgurl}
+                onchangefun={""}
               ></ItemBookInput>
             ))}
           </div>

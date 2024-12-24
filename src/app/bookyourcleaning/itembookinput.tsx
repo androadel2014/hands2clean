@@ -1,6 +1,5 @@
 "use client";
 
-import { Span } from "next/dist/trace";
 import React, { CSSProperties } from "react";
 export default function ItemBookInput({
   type = "",
@@ -13,7 +12,7 @@ export default function ItemBookInput({
   span = "",
   span2 = "",
   span3 = "",
-  onchangefun = () => console.log("Default onChange called"),
+  onchangefun,
 }) {
   return (
     <div className="text-center">

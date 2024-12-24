@@ -7,9 +7,9 @@ import img2 from "../../../public/images/img-2.jpg";
 import img3 from "../../../public/images/img-3.jpg";
 import { useState } from "react";
 
-export default function bookCleaningDetails({ mainColor }) {
+export default function BookCleaningDetails({ mainColor }) {
   // const mainColor = mainColor;
-  var cleaningServices = [
+  const cleaningServices = [
     {
       id: 1,
       title: "Recurring Service",

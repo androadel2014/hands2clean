@@ -5,12 +5,12 @@ export default function SecondSection() {
     <div className="bg-green-100 py-20">
       <div className=" max-w-screen-xl py-14 px-5 md:p-10 m-auto md:w-1/2 text-center ">
         <h3 className="text-blue-600 text-4xl ">
-          No Mess. No Stress. Just Clean Homes.{" "}
+          No Mess. No Stress. Just Clean Homes.
         </h3>
         <p className="text-blue-600 my-5">
-          Who doesn’t love that just-cleaned feeling? Our dedicated team of
+          Who doesn&apos;t love that just-cleaned feeling? Our dedicated team of
           trusted professionals is committed to bringing a fresh perspective
-          into every space we touch. Whether it's just a one-time clean or
+          into every space we touch. Whether it&apos;s just a one-time clean or
           on-going services, let us help you turn your house into a
           home—refreshing room by room with smart solutions.
         </p>

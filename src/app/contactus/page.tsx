@@ -1,4 +1,3 @@
-import FeaturedIn from "../layouts/featuredin";
 import Footer from "../layouts/Footer";
 import NavBar from "../layouts/navbar";
 import ContactUsForm from "./contactusform";

@@ -15,7 +15,7 @@ export default function Menu() {
     setDisplay(!display);
   }
 
-  var menuService = [
+  const menuService = [
     {
       id: 1,
       title: "Housekeeping Services",
