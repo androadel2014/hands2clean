@@ -1,0 +1,16 @@
+.headervideo {
+  pointer-events: none;
+}
+
+.header-video::-webkit-media-controls {
+  pointer-events: none;
+  display: none;
+}
+.header-video::-moz-media-controls {
+  display: none;
+  pointer-events: none;
+}
+.header-video::-ms-media-controls {
+  display: none;
+  pointer-events: none;
+}
