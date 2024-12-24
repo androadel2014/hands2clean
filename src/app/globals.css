@@ -187,6 +187,8 @@ label.Apartment::after {
 
   .percentage {
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .featuredin {
@@ -267,6 +269,11 @@ label.Apartment::after {
     justify-content: space-between;
     padding: 0px;
     margin: 10px;
+  }
+
+  .mxmobile5 {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 

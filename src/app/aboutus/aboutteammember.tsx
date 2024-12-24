@@ -181,7 +181,7 @@ export default function AboutTeamMember() {
 
   return (
     <>
-      <div className="bg-green-100 lgpy-20 lg:px-20 ">
+      <div className="bg-green-100 pt-10 lg:py-20 lg:px-20 ">
         <p className="text-4xl text-center text-green-600 mb-5">
           Meet the Team
         </p>
