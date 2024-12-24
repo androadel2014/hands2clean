@@ -22,7 +22,7 @@ export default function GivetheGift() {
               <Button
                 text={"Gift Card"}
                 clsname={
-                  " text-green-400 bg-green-400 mt-5 px-14 py-2 hover:bg-green-600"
+                  " text-green-400 bg-green-400 mt-5 px-14 py-2 hover:bg-green-600 text-white rounded-3xl"
                 }
                 handleDisplay={() => {}}
               ></Button>

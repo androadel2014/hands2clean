@@ -46,7 +46,7 @@ export default function Carosel() {
               leave the house spotless.
             </p>
             <div className="w-full mt-10 flex justify-center">
-              <Image src={yelp} alt="yelp" className="md:w-40 w-24"></Image>
+              <Image src={yelp} alt="yelp" className="md:w-40 w-36"></Image>
             </div>
           </div>
           <div className="w-full text-center md:py-32">

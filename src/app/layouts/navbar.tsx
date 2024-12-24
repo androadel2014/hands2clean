@@ -41,7 +41,7 @@ export default function NavBar() {
       >
         <Menu></Menu>
         <div className="flex items-center justify-center">
-          <Link href="/" className="w-1/2 h-1/2 ">
+          <Link href="/" className="md:w-3/4 md:h-1/2 ">
             <Image src={logo} alt="logo"></Image>
           </Link>
         </div>
