@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function OurServiceItem({ title, text, img, alter }) {
   return (
     <>
-      <Link href="" className="px-5 py-20 inline-block">
+      <Link href="" className="px-5 py-5 lg:py-20 inline-block">
         <div className="group text-left">
           <Image src={img} alt={alter} className="h-80 w-fit "></Image>
           <h2 className="text-green-400 text-2xl">{title}</h2>

@@ -164,7 +164,7 @@ label.Apartment::after {
   }
 
   .ourservices div {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
   }
 
@@ -241,7 +241,7 @@ label.Apartment::after {
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 800px) and (max-width: 1000px) {
   .percentage {
     display: flex;
     justify-content: space-around;
@@ -261,8 +261,12 @@ label.Apartment::after {
     justify-content: space-between;
     margin: 15px;
   }
+
   .ratingsection {
     display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 10px;
   }
 }
 

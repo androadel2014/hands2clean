@@ -22,7 +22,7 @@ export default function CleaningItem({ cleaningServices }) {
             <h3 className="text-h3-mobile lg:text-h3-desktop whitespace-break-spaces text-blue mb-5 text-left text-2xl mt-5">
               {items.title}
             </h3>
-            <div className="lg:flex lg:flex-col lg:flex-row lg:space-x-8  cleaningitems">
+            <div className="lg:flex lg:flex-col flex-row lg:space-x-8  cleaningitems">
               <ul className="lg:grid lg:grid-rows-6 lg:grid-flow-col ">
                 {items.description.map((itemss) => (
                   <li
