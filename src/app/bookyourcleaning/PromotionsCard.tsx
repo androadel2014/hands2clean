@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function PromotionsCard({ bigText = "", text = "" }) {
   return (
-    <div className="p-1 md:w-1/2 m-10 bg-green-400 text-white">
+    <div className="p-1 lg:w-1/2 m-10 bg-green-400 text-white">
       <div className="border border-white px-10 py-5">
         <h2 className="text-2xl ">{bigText}</h2>
         <p className="mt-3 ">{text}</p>

@@ -26,7 +26,7 @@ export default function Header() {
           />
           Your browser does not support the video tag.
         </video>
-        <div className="absolute md:top-1/3 w-full flex text-center flex-col top-2/4 ">
+        <div className="absolute lg:top-1/3 w-full flex text-center flex-col top-2/4 ">
           <div>
             <h3 className="text-3xl sm:text-7xl text-white">
               A clean home<br></br> without the stress

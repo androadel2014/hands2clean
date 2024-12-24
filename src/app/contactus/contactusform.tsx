@@ -30,8 +30,8 @@ export default function ContactUsForm() {
     <>
       <div className="py-20 px-20 ">
         <p className="text-3xl text-green-400 mb-5">Contact Us</p>
-        <div className="md:flex md:justify-between">
-          <div className="md:w-1/2">
+        <div className="lg:flex lg:justify-between">
+          <div className="lg:w-1/2">
             <p className="text-3xl text-green-400 mb-10">Get a Free Quote!</p>
             <form action="" className="">
               <input
@@ -116,7 +116,7 @@ export default function ContactUsForm() {
               />
             </form>
           </div>
-          <div className="md:w-1/2 md:px-20">
+          <div className="lg:w-1/2 lg:px-20">
             <p className="text-2xl text-green-400 mb-5">
               Better yet, see us in person!
             </p>

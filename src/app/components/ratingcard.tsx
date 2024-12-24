@@ -325,7 +325,7 @@ export default function RatingCard({ name, date, text, rating, img }) {
         </div>
 
         <div className="border-b border-green-400"></div>
-        <div className="p-5 md:pb-40">
+        <div className="p-5 lg:pb-40">
           <p>{text}</p>
         </div>
       </div>

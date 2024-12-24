@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function AboutSecond() {
   return (
     <>
-      <div className="bg-green-100 py-20 text-center">
+      <div className="bg-green-100 lg:py-20 text-center pt-3">
         <h3 className="text-green-700 text-4xl">
           Family Owned and Trusted Since 2004
         </h3>

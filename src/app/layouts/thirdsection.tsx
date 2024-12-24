@@ -7,13 +7,13 @@ import logo3 from "../../../public/images/logo3.png";
 export default function ThirdSection() {
   return (
     <>
-      <div className="bg-green-100 py-20 flex third-section md:justify-center lg:px-40 md:px-5">
+      <div className="bg-green-100 lg:py-20  third-section lg:flex lg:justify-center lg:px-40 lg:px-5">
         <Image
           src={img9}
           alt="Award Wining Service"
-          className="md:w-1/2"
+          className="m-auto lg:w-1/2"
         ></Image>
-        <div className="text-center py-10 px-20 md:w-1/2 bg-white">
+        <div className="text-center py-10 px-20 lg:w-1/2 bg-white">
           <h3 className="text-3xl mb-6">Award Wining Service</h3>
           <p>
             Services to write home about. We are humbled to be the recipient of

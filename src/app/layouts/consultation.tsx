@@ -5,8 +5,8 @@ import "swiper/css/pagination";
 
 export default function Consultation() {
   return (
-    <div className="bg-green-100 py-20 text-center  bg-[url('/images/consultation.jpg')] bg-cover bg-center  w-full md:flex md:justify-center">
-      <div className=" bg-white p-10 md:w-1/2 m-auto md:mt-52 mx-5">
+    <div className="bg-green-100 py-20 text-center  bg-[url('/images/consultation.jpg')] bg-cover bg-center  w-full lg:flex lg:justify-center">
+      <div className=" bg-white p-10 lg:w-1/2 m-auto lg:mt-52 mx-5">
         <h4 className="text-green-400 text-3xl mb-5">
           Free In-Home Consultation
         </h4>

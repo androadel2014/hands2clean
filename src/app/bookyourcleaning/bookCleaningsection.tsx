@@ -20,7 +20,7 @@ export default function BookYourCleaning() {
         <p className="text-center text-green-600 mt-3">
           We have high standards for your home.
         </p>
-        <form action="" className="md:m-32 md:mb-0 ">
+        <form action="" className="lg:m-32 lg:mb-0 ">
           <FirstSectionBook
             selectedOption={selectedOption}
             setSelectedOption={setSelectedOption}
@@ -29,7 +29,7 @@ export default function BookYourCleaning() {
           <OtherPart selectedOption={selectedOption}></OtherPart>
           <SelectCleaningDate></SelectCleaningDate>
           <YourTotal></YourTotal>
-          <div className="flex justify-end md:w-4/6 md:m-auto px-20 md:pt-0 mt-20">
+          <div className="flex justify-end lg:w-4/6 lg:m-auto px-20 lg:pt-0 mt-20">
             <input
               type="submit"
               value="Continue"

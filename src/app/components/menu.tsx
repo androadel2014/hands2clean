@@ -71,16 +71,16 @@ export default function Menu() {
           <h3 className="text-white text-xl">Explore our Services</h3>
           <ul className="sm:flex sm:justify-between  mt-10 menu-items">
             {menuService.map((item) => (
-              <li key={item.id} className="md:mr-5 ">
+              <li key={item.id} className="lg:mr-5 ">
                 {/* <div> */}
                 <Image src={item.image} alt={item.title}></Image>
                 {/* </div> */}
-                <div className="md:mt-5 text-white text-xl">{item.title}</div>
+                <div className="lg:mt-5 text-white text-xl">{item.title}</div>
               </li>
             ))}
           </ul>
           <div className="w-full h-0.5 bg-slate-50 opacity-40 my-16"></div>
-          <ul className="grid md:grid-cols-4 gap-4 py-5 text-white text-2xl text-center-mobile">
+          <ul className="grid lg:grid-cols-4 gap-4 py-5 text-white text-2xl text-center-mobile">
             <li className="mb-8 hover:text-green-300">
               <Link href="/aboutus">About Us</Link>
             </li>
@@ -101,8 +101,8 @@ export default function Menu() {
             </li>
           </ul>
           <div className="w-full h-0.5 bg-slate-50 opacity-40 my-16"></div>
-          <div className="text-white md:flex ">
-            <div className="md:mr-28 text-center-mobile">
+          <div className="text-white lg:flex ">
+            <div className="lg:mr-28 text-center-mobile">
               <p>Call or text</p>
               <p>1-888-624-3274</p>
               <p>Mon - Fri, 8 AM - 5 PM</p>

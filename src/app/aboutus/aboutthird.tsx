@@ -1,8 +1,8 @@
 export default function AboutThird() {
   return (
     <>
-      <div className="bg-green-100 py-20 md:px-40 md:flex md:justify-between items-center">
-        <div className="md:w-1/2 p-14">
+      <div className="bg-green-100 lg:py-20 lg:px-40 lg:flex lg:justify-between items-center aboutthird">
+        <div className="lg:w-1/2 p-5 lg:p-14">
           <h4 className="text-4xl mb-5">
             Clean Seekers. Stress Relievers. Healthy Home Makers.
           </h4>
@@ -18,7 +18,7 @@ export default function AboutThird() {
             values—accountability, integrity and respect—and incredible team.
           </p>
         </div>
-        <div className="md:w-1/2 text-center p-20">
+        <div className="lg:w-1/2 text-center p-20">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="38px"

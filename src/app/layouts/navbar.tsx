@@ -33,16 +33,16 @@ export default function NavBar() {
         Call or text us at (888) 624-3274
       </p>
       <div
-        className={`flex justify-between md:top-0 z-20 mobile-bg-white ${
+        className={`flex justify-between lg:top-0 z-20 mobile-bg-white ${
           isScrolled
-            ? "bg-white fixed w-full md:top-0 top-8-pc "
+            ? "bg-white fixed w-full lg:top-0 top-8-pc "
             : "sticky bg-transparent"
         }`}
       >
         <Menu></Menu>
         <div className="flex items-center justify-center">
-          <Link href="/" className="md:w-3/4 md:h-1/2 ">
-            <Image src={logo} alt="logo"></Image>
+          <Link href="/" className="w-3/4 lg:h-2/4">
+            <Image src={logo} alt="logo" height={60}></Image>
           </Link>
         </div>
         <BookCleaningDetails mainColor="text-blue-800"></BookCleaningDetails>

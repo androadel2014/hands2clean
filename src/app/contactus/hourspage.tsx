@@ -14,7 +14,7 @@ export default function HoursPage() {
   const day = new Date().toString().slice(0, 3);
   return (
     <div className="py-5">
-      <ul className="md:w-1/2">
+      <ul className="lg:w-1/2">
         {daysSchedule.map((item) => (
           <li
             key={item.id}

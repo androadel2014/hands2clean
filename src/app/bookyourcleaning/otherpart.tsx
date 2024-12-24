@@ -125,7 +125,7 @@ export default function OtherPart({ selectedOption }) {
   );
 
   return (
-    <div className="bg-green-200 md:w-4/6 m-auto md:p-20 md:pt-0">
+    <div className="bg-green-200 lg:w-4/6 m-auto lg:p-20 lg:pt-0">
       {filteredOption ? (
         <div className="flex justify-between mr-5">
           {filteredOption.items.map((option) => (

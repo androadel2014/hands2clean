@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <>
       <div className="px-20 py-20 bg-green-100">
-        <div className="md:flex md:justify-between text-center-mobile">
+        <div className="lg:flex lg:justify-between text-center-mobile footer">
           <ul>
             <h2 className="text-2xl mb-5">Our Services</h2>
             <li>
@@ -100,8 +100,8 @@ export default function Footer() {
             </div>
           </ul>
         </div>
-        <div className="md:flex md:justify-between mt-20  ">
-          <div className="md:flex md:justify-normal gap-5 items-center align-middle text-center-mobile">
+        <div className="lg:flex lg:justify-between mt-20  ">
+          <div className="lg:flex lg:justify-normal gap-5 items-center align-middle text-center-mobile">
             <p className="">
               510 Spring St, Suite 120, Herndon, VA 20170 1-888-MAIDBRIGHT
             </p>
@@ -110,7 +110,11 @@ export default function Footer() {
               Privacy Policy
             </Link>
           </div>
-          <Image src={logo} alt="logo" className="md:w-44 mt-10-mobile"></Image>
+          <Image
+            src={logo}
+            alt="logo"
+            className="lg:w-44 mt-10-mobile mt-5"
+          ></Image>
         </div>
       </div>
     </>

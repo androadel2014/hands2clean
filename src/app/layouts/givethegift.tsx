@@ -8,8 +8,8 @@ import ChildrensNational from "../../../public/images/ChildrensNational.jpg";
 export default function GivetheGift() {
   return (
     <>
-      <div className="bg-green-100 py-20 flex md:justify-center md:px-40 givinthegift">
-        <div className="flex md:justify-normal">
+      <div className="bg-green-100 lg:py-20 flex lg:justify-center lg:px-40 givinthegift">
+        <div className="flex lg:justify-normal">
           <Image src={givethegift} alt="sdsdsd" className="w-1/2"></Image>
           <div className="bg-white h-full text-center text-green-400 p-14 flex items-center">
             <div>

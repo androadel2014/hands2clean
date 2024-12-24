@@ -34,9 +34,9 @@ export default function OurServices() {
 
   return (
     <>
-      <div className="bg-green-100 py-20 text-center md:px-40 ourservices">
+      <div className="bg-green-100 lg:py-20 text-center py-10 px-10 lg:px-40 ourservices">
         <h2 className="text-3xl text-green-400">Our Services</h2>
-        <div className="md:flex md:justify-between ">
+        <div className="m-auto flex justify-between ">
           {ourserviceitems.map((item) => (
             <OurServiceItem
               key={item.id}

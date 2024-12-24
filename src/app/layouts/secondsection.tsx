@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function SecondSection() {
   return (
-    <div className="bg-green-100 py-20">
-      <div className=" max-w-screen-xl py-14 px-5 md:p-10 m-auto md:w-1/2 text-center ">
+    <div className="bg-green-100 py-20 ">
+      <div className=" max-w-screen-xl py-14 px-5 lg:p-10 m-auto lg:w-1/2 text-center ">
         <h3 className="text-blue-600 text-4xl ">
           No Mess. No Stress. Just Clean Homes.
         </h3>

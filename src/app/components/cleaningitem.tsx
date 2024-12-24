@@ -9,7 +9,7 @@ export default function CleaningItem({ cleaningServices }) {
             className="w-full m-10 text-center text-green-500"
             key={items.id}
           >
-            <div className="w-full md:mt-10 flex justify-center ">
+            <div className="w-full lg:mt-10 flex justify-center ">
               {/* {items.image.src} */}
               <Image
                 src={items.image.src}
@@ -19,22 +19,22 @@ export default function CleaningItem({ cleaningServices }) {
                 height={100}
               ></Image>
             </div>
-            <h3 className="text-h3-mobile md:text-h3-desktop whitespace-break-spaces text-blue mb-5 text-left text-2xl mt-5">
+            <h3 className="text-h3-mobile lg:text-h3-desktop whitespace-break-spaces text-blue mb-5 text-left text-2xl mt-5">
               {items.title}
             </h3>
-            <div className="md:flex md:flex-col md:flex-row md:space-x-8  cleaningitems">
-              <ul className="md:grid md:grid-rows-6 md:grid-flow-col ">
+            <div className="lg:flex lg:flex-col lg:flex-row lg:space-x-8  cleaningitems">
+              <ul className="lg:grid lg:grid-rows-6 lg:grid-flow-col ">
                 {items.description.map((itemss) => (
                   <li
                     key={itemss.id}
                     // className="transition-all duration-300 font-sans text-base-lg flex flex-row mb-2 items-center text-blue"
-                    className="transition-all duration-300 font-sans text-base-lg flex md:flex-row mb-2 items-center text-blue mr-3"
+                    className="transition-all duration-300 font-sans text-base-lg flex lg:flex-row mb-2 items-center text-blue mr-3"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="21px"
                       height="21px"
-                      className="md:mr-[9.68px] items-center"
+                      className="lg:mr-[9.68px] items-center"
                     >
                       <g fill="none" fillRule="evenodd">
                         <circle

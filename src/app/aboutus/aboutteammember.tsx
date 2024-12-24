@@ -181,7 +181,7 @@ export default function AboutTeamMember() {
 
   return (
     <>
-      <div className="bg-green-100 py-20 md:px-20 ">
+      <div className="bg-green-100 lgpy-20 lg:px-20 ">
         <p className="text-4xl text-center text-green-600 mb-5">
           Meet the Team
         </p>
@@ -191,7 +191,7 @@ export default function AboutTeamMember() {
           success to our dedicated team. Meet the people that bring cleanliness
           and joy into every home.
         </p>
-        <div className="grid md:grid-cols-4 grid-cols-2 my-10">
+        <div className="grid lg:grid-cols-4 grid-cols-2 my-10">
           {teamAboutMember.map((item) => {
             return (
               <ProfileAbout

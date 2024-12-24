@@ -12,8 +12,8 @@ export default function page() {
     <>
       <NavBar></NavBar>
       <div
-        className={`bg-green-100 py-20 text-center 
-       bg-[url('/images/aboutus.jpg')] bg-cover bg-center  w-full md:h-96 md:flex md:justify-center mobile-bg-img`}
+        className={`bg-green-100 lg:py-20 text-center 
+       bg-[url('/images/aboutus.jpg')] bg-cover bg-center  w-full lg:h-96 lg:flex lg:justify-center mobile-bg-img`}
       ></div>
       <AboutSecond></AboutSecond>
       <AboutThird></AboutThird>
@@ -43,8 +43,8 @@ export default function page() {
       ></AboutForth>
       <AboutTeamMember></AboutTeamMember>
       <div
-        className={`bg-green-100 py-20 text-center 
-       bg-[url('/images/aboutlast.jpg')] bg-cover bg-center  w-full md:h-screen  md:flex md:justify-center mobile-bg-img`}
+        className={`bg-green-100 lg:py-20 text-center 
+       bg-[url('/images/aboutlast.jpg')] bg-cover bg-center  w-full lg:h-screen  lg:flex lg:justify-center mobile-bg-img`}
       ></div>
       <FeaturedIn></FeaturedIn>
       <Footer></Footer>

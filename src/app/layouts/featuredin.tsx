@@ -11,7 +11,7 @@ export default function FeaturedIn() {
     <>
       <div className=" text-center px-10 py-10">
         <h2 className="text-lg mb-5 text-green-400">Featured In</h2>
-        <div className="md:flex md:justify-between featuredin">
+        <div className="lg:flex lg:justify-between featuredin">
           <Image
             src={post}
             alt="post"
@@ -45,7 +45,7 @@ export default function FeaturedIn() {
           <Image
             src={issa}
             alt="issa"
-            className="min-w-[87px] max-w-[150px] max-h-[58px] object-contain hidden md:block"
+            className="min-w-[87px] max-w-[150px] max-h-[58px] object-contain hidden lg:block"
           ></Image>
         </div>
       </div>
