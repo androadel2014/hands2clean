@@ -29,6 +29,10 @@ export default function RootLayout({
         style={{ backgroundColor: "transparent", margin: 0, padding: 0 }}
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
         {children}
       </body>
     </html>
