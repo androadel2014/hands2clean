@@ -36,7 +36,7 @@ export default function OurServices() {
     <>
       <div className="bg-green-100 lg:py-20 text-center py-10 px-10 lg:px-40 ourservices">
         <h2 className="text-3xl text-green-400">Our Services</h2>
-        <div className="m-auto flex justify-between ">
+        <div className="m-auto lg:flex lg:justify-between">
           {ourserviceitems.map((item) => (
             <OurServiceItem
               key={item.id}

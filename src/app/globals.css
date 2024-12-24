@@ -261,6 +261,9 @@ label.Apartment::after {
     justify-content: space-between;
     margin: 15px;
   }
+  .ratingsection {
+    display: flex;
+  }
 }
 
 /* :root {
