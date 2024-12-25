@@ -15,7 +15,7 @@ export default function ItemBookInput({
   onchangefun,
 }) {
   return (
-    <div className="text-center relative ">
+    <div className="text-center relative mr-3">
       <input
         type={type}
         name={name}

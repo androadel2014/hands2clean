@@ -54,6 +54,7 @@ export default function FirstSectionBook({
             req={true}
             clasName="text-green-600"
           ></HeadReq>
+          {/* <div className="flex justify-between mt-10"> */}
           <div className="flex justify-between mt-10">
             {HouseType.map((item) => (
               <ItemBookInput

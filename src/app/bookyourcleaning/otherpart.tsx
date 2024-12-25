@@ -127,9 +127,9 @@ export default function OtherPart({ selectedOption }) {
   return (
     <div className="bg-green-200 lg:w-4/6 m-auto lg:p-20 lg:pt-0">
       {filteredOption ? (
-        <div className="flex justify-between mr-5">
+        <div className="grid grid-cols-3 md:grid-cols-5 ml-4 pb-10">
           {filteredOption.items.map((option) => (
-            <div key={option.id} className="text-center w1/5">
+            <div key={option.id} className="text-center ">
               <ItemBookInput
                 type="checkbox"
                 name={option.inpname}
