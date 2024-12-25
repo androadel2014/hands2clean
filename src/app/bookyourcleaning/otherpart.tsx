@@ -144,7 +144,7 @@ export default function OtherPart({ selectedOption }) {
           ))}
         </div>
       ) : (
-        <p className="text-red-500">
+        <p className="text-red-500 p-10">
           No options available for the selected type.
         </p>
       )}
