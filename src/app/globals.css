@@ -65,7 +65,7 @@ label.radiolabel::after {
   transform: scale(1);
   transition: 0.3s all ease-in-out;
   opacity: 0.2;
-  top: 0px;
+  bottom: -100px;
   left: 0px;
 }
 
