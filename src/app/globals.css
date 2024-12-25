@@ -25,7 +25,7 @@
 
 /* -------------------------- */
 label.radiolabel {
-  position: relative;
+  /* position: relative; */
   cursor: pointer;
   font-size: 15px;
 }
@@ -53,10 +53,10 @@ label.radiolabel::after {
   height: var(--width-book-item);
   background-color: transparent;
   display: block;
-  transform: scale(0);
+  transform: scale(1);
   border: 2px solid #32c332;
-  position: fixed;
-  bottom: px;
+  position: absolute;
+  top: 0px;
   left: 0px;
 }
 
